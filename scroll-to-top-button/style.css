@@ -1,0 +1,25 @@
+body {
+  height: 5000px;
+  background: #E86357;
+}
+.up{
+  position: fixed;
+  bottom: 30px;
+  right: -100px;
+  background-color: #2C2D2A;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding:10px 15px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.up:hover{
+  background: #fff;
+  color: #2C2D2A;
+}
+.up.show {
+  right: 30px;
+}
